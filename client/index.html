@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css">
+    <title>Guestbook</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <h1>Grand Guestbook</h1>
+
+    <form id="messageForm">
+      <input type="text" id="nameInput" name="msg_name" placeholder="Your name" required />
+      <input type="text" id="contentInput" name="content" placeholder="Your message" required />
+      <button type="submit">Sign Guestbook</button>
+    </form>
+
+    <h2>Messages</h2>
+    <ul id="messagesList"></ul>
+    
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
