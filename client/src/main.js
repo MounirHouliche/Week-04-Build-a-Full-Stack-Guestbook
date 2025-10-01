@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:8080/messages";
+const API_URL = "https://week-04-build-a-full-stack-guestbook.onrender.com/messages";
 
 const messageForm = document.querySelector("#messageForm");
 const messagesList = document.querySelector("#messagesList");
